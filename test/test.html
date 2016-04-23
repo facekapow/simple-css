@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>simple.css</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="../simple.css" rel="stylesheet" type="text/css"/>
+    <style>
+      :root {
+        --body-width: 45%;
+      }
+      body {
+        font-family: 'Raleway';
+        width: var(--body-width);
+        margin-left: auto;
+        margin-right: auto;
+      }
+      [type="date"] {
+        min-width: 12em;
+      }
+      [type="datetime-local"] {
+        min-width: 20em;
+      }
+    </style>
+  </head>
+  <body class="simple--dark">
+    <input type="checkbox" id="checkbox1"/><label for="checkbox1">Checkbox 1</label><br>
+    <br>
+    <input type="radio" name="light_or_dark" id="light_or_dark__light"/><label for="light_or_dark__light">Light Theme</label><br>
+    <input type="radio" name="light_or_dark" id="light_or_dark__dark"/><label for="light_or_dark__dark">Dark Theme</label><br>
+    <br>
+    <p>By the way, this page is set to 45% width...</p>
+    <div class="simple--alignWrapper-center">
+      <button id="showPopup1">Show a popup with an overlay</button>
+      <button id="showPopup2">Show a popup <strong>without</strong> an overlay</button>
+      <div class="simple--alignWrapper-center"><img id="image1" src="http://dummyimage.com/400x400/ffffff/0011ff.png&text=test%20image"/></div>
+    </div>
+
+    <blockquote>
+      I'm a blockquote.
+    </blockquote>
+
+    <pre><code>alert('I\'m some example JavaScript code.');</code></pre>
+
+    <p>The following <code>is some inline code</code>.</p>
+
+    <ol>
+      <li>li 1</li>
+      <li>li 2</li>
+      <li>li 3</li>
+      <li>etc.</li>
+    </ol>
+
+    <ul>
+      <li>li 1</li>
+      <li>li 2</li>
+      <li>li 3</li>
+      <li>etc.</li>
+    </ul>
+
+    <div id="overlay1" class="simple--overlay"></div>
+    <div id="popup1" class="simple--popup">
+      <span>Hi.</span>
+    </div>
+
+    Progress bar: <progress value="22" max="100"></progress><br>
+    <input type="submit"/><br>
+    <input type="file"/><br>
+    Numbers only: <input type="number"/><br>
+    Text: <input type="text"/><br>
+    Search: <input type="search"/><br>
+    Search with Autofill: <input type="search" results="5"/><br>
+    Password: <input type="password"/><br>
+    Date: <input type="date"/><br>
+    Color: <input type="color"/><br>
+    Range: <input type="range" min="0" max="10"/><br>
+    Date &amp; Time: <input type="datetime-local"/><br>
+    Email: <input type="email" name="email"/><br>
+    URL: <input type="url"/>
+
+    <script src="test.js"></script>
+  </body>
+</html>
