@@ -68,18 +68,18 @@ blockquote {
   background-color: #d6d6d6;
   border-left: 6px solid #7c7c7c;
   padding-left: 6px;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -webkit-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -o-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -moz-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -ms-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -o-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -moz-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 blockquote:hover {
-  -webkit-filter: drop-shadow(0px 0px 5px #000);
-  filter: drop-shadow(0px 0px 5px #000);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
 }
 
 .simple--dark blockquote, blockquote.simple--dark {
@@ -123,12 +123,12 @@ pre {
   background-color: #525151;
   margin-left: 40px;
   padding-bottom: none;
-  -webkit-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -o-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -moz-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -ms-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+  -webkit-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -ms-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
   padding: 3px 3px 3px 3px;
 }
 
@@ -138,14 +138,14 @@ pre {
 }
 
 pre:hover {
-  -webkit-filter: drop-shadow(0px 0px 5px #000);
-  filter: drop-shadow(0px 0px 5px #000);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
 }
 
 pre code {
   padding: 0px 0px 0px 0px;
-  -webkit-filter: none;
-  filter: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .simple--dark pre code, pre.simple--dark code {
@@ -154,8 +154,8 @@ pre code {
 }
 
 pre code:hover {
-  -webkit-filter: none;
-  filter: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 code {
@@ -163,12 +163,12 @@ code {
   border-radius: 5px;
   color: #fff;
   background-color: #525151;
-  -webkit-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -o-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -moz-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -ms-transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+  -webkit-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -ms-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
 .simple--dark code, code.simple--dark {
@@ -177,8 +177,8 @@ code {
 }
 
 code:hover {
-  -webkit-filter: drop-shadow(0px 0px 5px #000);
-  filter: drop-shadow(0px 0px 5px #000);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
 }
 
 strong {
@@ -218,8 +218,8 @@ img:hover {
   -moz-transition: width 0.4s ease-in-out, top 0.6s ease-in-out;
   -ms-transition: width 0.4s ease-in-out, top 0.6s ease-in-out;
   z-index: 4;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
   max-width: 85%;
   position: fixed;
   left: 50%;
@@ -253,8 +253,8 @@ img:hover {
 }
 
 .simple--overlay.simple--overlay-shown {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  -ms-box-shadow: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  box-shadow: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   opacity: 0.7;
   visibility: visible;
 }
@@ -269,13 +269,13 @@ input,
   border-radius: 5px;
   font-size: 110%;
   text-align: center;
-  transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -webkit-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -o-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -moz-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -ms-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+  transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -moz-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -ms-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
 .simple--dark button, button.simple--dark,
@@ -288,16 +288,16 @@ input,
 button:hover,
 input:hover,
 [type="file"]:hover::-webkit-file-upload-button {
-  -webkit-filter: drop-shadow(0px 0px 5px #000);
-  filter: drop-shadow(0px 0px 5px #000);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
 }
 
 button:active,
 input:active,
 [type="file"]:active::-webkit-file-upload-button {
   background-color: #20878e;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 .simple--dark button:active, button.simple--dark:active,
@@ -346,13 +346,13 @@ img, button, input, [type="checkbox"] + label, [type="radio"] + label {
   height: 18px;
   background-color: #fff;
   border-radius: 3px;
-  transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -webkit-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -o-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -moz-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -ms-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+  transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -moz-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -ms-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
 [type="radio"] + label::before {
@@ -399,20 +399,20 @@ img, button, input, [type="checkbox"] + label, [type="radio"] + label {
 
 [type="checkbox"] + label:hover::before,
 [type="radio"] + label:hover::before {
-  -webkit-filter: drop-shadow(0px 0px 5px #000);
-  filter: drop-shadow(0px 0px 5px #000);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
 }
 
 [type="file"] {
   background-color: transparent !important;
-  -webkit-filter: none;
-  filter: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   font-size: 100%;
 }
 
 [type="file"]:hover {
-  -webkit-filter: none;
-  filter: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 [type="number"],
@@ -605,13 +605,13 @@ progress {
   height: 12px;
   background-color: #fff;
   border-radius: 5px;
-  transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -webkit-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -o-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -moz-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -ms-transition: -webkit-filter 0.2s ease-in-out, filter 0.2s ease-in-out;
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+  transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -o-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -moz-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -ms-transition: -webkit-box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
 .simple--dark progress, progress.simple--dark {
@@ -619,8 +619,8 @@ progress {
 }
 
 progress:hover {
-  -webkit-filter: drop-shadow(0px 0px 5px #000);
-  filter: drop-shadow(0px 0px 5px #000);
+  -webkit-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
 }
 
 progress::-webkit-progress-bar {
