@@ -423,29 +423,29 @@ img, button, input, [type="checkbox"] + label, [type="radio"] + label {
 }
 
 input[type]:not([type="file"]):not([type="submit"]):not([type="button"]) {
-  background-color: #c88123 !important;
-  color: #000 !important;
+  background-color: #c88123;
+  color: #000;
 }
 
 input[type] {
-  color: #fff !important;
+  color: #fff;
 }
 
 input[type="file"] {
-  color: #000 !important;
+  color: #000;
 }
 
 .simple--dark input[type], input[type].simple--dark {
-  color: #000 !important;
+  color: #000;
 }
 
 .simple--dark input[type="file"], input[type="file"].simple--dark {
-  color: #fff !important;
+  color: #fff;
 }
 
 [type="color"] {
-  background-color: transparent !important;
-  color: #000 !important;
+  background-color: transparent;
+  color: #000;
 }
 
 [type="color"]::-webkit-color-swatch-wrapper {
