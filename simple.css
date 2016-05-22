@@ -144,11 +144,6 @@ pre {
   padding: 3px 3px 3px 3px;
 }
 
-.simple--dark pre, pre.simple--dark {
-  color: #000;
-  background-color: #969696;
-}
-
 pre:hover {
   -webkit-box-shadow: 0px 0px 15px #000;
   box-shadow: 0px 0px 15px #000;
@@ -158,11 +153,6 @@ pre code {
   padding: 0px 0px 0px 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-
-.simple--dark pre code, pre.simple--dark code {
-  color: #000;
-  background-color: #969696;
 }
 
 pre code:hover {
@@ -181,11 +171,6 @@ code {
   -ms-transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
-}
-
-.simple--dark code, code.simple--dark {
-  color: #000;
-  background-color: #969696;
 }
 
 code:hover {
