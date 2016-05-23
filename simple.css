@@ -609,13 +609,6 @@ progress:hover {
 progress::-webkit-progress-bar {
   border-radius: 5px;
   height: 12px;
-  background-color: #fff;
-  background-color: var(--simple-light-primary);
-}
-
-.simple--dark progress::-webkit-progress-bar, progress.simple--dark::-webkit-progress-bar {
-  background-color: #454545;
-  background-color: var(--simple-dark-primary);
 }
 
 progress::-webkit-progress-value {
@@ -642,12 +635,4 @@ progress::-moz-progress-bar {
   -moz-transition: width 0.4s ease-in-out, background-color 0.2s ease-in-out;
   -ms-transition: width 0.4s ease-in-out, background-color 0.2s ease-in-out;
   border-radius: 5px;
-  background-color: #51c9c9;
-  background-color: var(--simple-light-accent);
-}
-
-.simple--dark progress::-moz-progress-bar, progress.simple--dark::-moz-progress-bar {
-  /* another copy paste from above */
-  background-color: #b83b2a;
-  background-color: var(--simple-dark-accent);
 }
