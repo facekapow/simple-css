@@ -449,7 +449,7 @@ input[type]:not([type="file"]):not([type="submit"]):not([type="button"]) {
 }
 
 [type="color"]::-webkit-color-swatch {
-  border: none;
+  border: 1px solid #000;
   border-radius: 1em !important;
   width: 1em !important;
   height: 1em !important;
